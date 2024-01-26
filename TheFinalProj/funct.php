@@ -1,5 +1,7 @@
 <?php
 require ("conf.php");
+
+
 //väljundfunktsioon
 function autoKuvamine(){
     global $yhendus;

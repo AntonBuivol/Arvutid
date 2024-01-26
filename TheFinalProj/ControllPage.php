@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>
-Tere tulemast!
+Tere tulemast! Taotluse jätmiseks minge veebisaidile.
 </h1>
  <div class="Login">
         <a href="login.php">

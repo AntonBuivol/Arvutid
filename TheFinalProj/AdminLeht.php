@@ -2,13 +2,17 @@
 require ('conf.php');
 require ('funct.php');
 
-if(isset($_REQUEST["Saalvesta"])){
-    muuda($_REQUEST["muuda_id"],$_REQUEST["korpus"] ? 1 : 0, $_REQUEST["kuvar"]? 1 : 0, $_REQUEST["pakitud"]? 1 : 0);
-    header("Location: AdminLeht.php");
-}
-
 session_start();
 
+if(isset($_REQUEST["Saalvesta"])){
+
+    $korpusValue = isset($_REQUEST["korpus"]) ? ($_REQUEST["korpus"] ? 1 : 0) : 0;
+    $kuvarValue = isset($_REQUEST["kuvar"]) ? ($_REQUEST["kuvar"] ? 1 : 0) : 0;
+    $pakitudValue = isset($_REQUEST["pakitud"]) ? ($_REQUEST["pakitud"] ? 1 : 0) : 0;
+
+    muuda($_REQUEST["muuda_id"],$korpusValue,$kuvarValue,$pakitudValue);
+}
+//kontrollige administraatori olemasolu
 function isAdmin(){
     return  isset($_SESSION['onAdmin']) && $_SESSION['onAdmin'];
 }
@@ -49,14 +53,14 @@ $arvutid = autoKuvamine();
     </tr>
     <?php foreach ($arvutid as $arvuti): ?>
         <tr>
-            <?php if (!isset($_REQUEST["muutmine"]) || $arvuti->id != intval($_REQUEST["muutmine"])) : ?>
+            <?php if (!isset($_REQUEST["muutmine"]) || $arvuti->id != intval($_REQUEST["muutmine"])) ://Andmete väljund ?>
                 <td><?= $arvuti->id ?></td>
                 <td><?= $arvuti->kirjeldus ?></td>
                 <td><?= $arvuti->korpus ? 'Jah' : 'Ei' ?></td>
                 <td><?= $arvuti->kuvar ? 'Jah' : 'Ei' ?></td>
                 <td><?= $arvuti->pakitud ? 'Jah' : 'Ei' ?></td>
                 <td><?= "<a href='AdminLeht.php?muutmine=$arvuti->id'>Muuda</a>" ?></td>
-            <?php else: ?>
+            <?php else: //andmete muutmise vorm ?>
                 <form action="AdminLeht.php">
                     <input type="hidden" name="muuda_id" value="<?= $arvuti->id ?>">
                     <td><?= $arvuti->id ?></td>

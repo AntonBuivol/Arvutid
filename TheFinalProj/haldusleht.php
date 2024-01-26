@@ -23,7 +23,7 @@ function isAdmin(){
 <nav>
     <ul>
         <li><a href='haldusleht.php'>Kasutaja</a></li>
-        <?php if (isAdmin()) { ?>
+        <?php if (isAdmin()) { //kui see on admin, siis on navigatsioonis alumine Admini leht?>
         <li><a href='AdminLeht.php'>Admin</a></li>
         <?php } ?>
         <li id='logout'><a href='logout.php'>Logi välja</a></li>
@@ -32,6 +32,7 @@ function isAdmin(){
 
 
 <?php
+//märkeruudu valimisel märgitakse 1 ja lisab selle väärtuse tabelisse kui märkeruut pole märgitud, on see 0
 if (isset($_REQUEST["SalvestaTellimus"])) {
     global $yhendus;
     $choice1 = isset($_REQUEST['choice1']) ? 1 : 0;
@@ -44,23 +45,24 @@ if (isset($_REQUEST["SalvestaTellimus"])) {
 ?>
 
 <h2>Kasutaja Leht</h2>
+
+<div id='info'>Kirjutage, mida soovite saada ja me saadame selle teile.</div>
+
 <table>
     <tr>
         <th>Kirjeldus</th>
-        <th>Korpus</th>
-        <th>Kuvar</th>
         <th>Salvesta tegevus</th>
     </tr>
     <?php
     global $yhendus;
+    //andmeväljund
     $kask=$yhendus->prepare("SELECT id, kirjeldus, korpus, kuvar FROM arvutitellimused");
     $kask->bind_result($idKas, $opisanieKas, $korpusKas, $monitorKas);
     $kask->execute();
+    //Vorm kasutaja kirjelduse sisestamiseks
     ?>
     <form>
     <td><input type='text' name='kirjeldusKas' id="kirjeldusKas"></td>
-    <td><input type='checkbox' value='1' id='choice1' name="choice1"></td>
-    <td><input type='checkbox' value='1' id='choice2' name="choice2"> </td>
     <td><input type='submit' name='SalvestaTellimus' value='Salvesta'></td>
     </tr>
     </form>
