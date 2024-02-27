@@ -78,3 +78,4 @@ Oma lehel saab administraator:
 
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/26ef81ae-cdb8-4b12-9179-76fff7613302)
