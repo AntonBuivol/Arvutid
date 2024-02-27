@@ -1,7 +1,5 @@
 # Arvutikomponentide tellimine
 
-[Veebileht](https://antonbuivol22.thkit.ee/phplehti/content/andmebaas/TheFinalProj/ControllPage.php)
-
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/896ca8ed-ac3b-43b3-9e89-7618811da355)
 
 ## Sisukord
@@ -10,6 +8,7 @@
 3. [Logi sisse](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#logi-sisse)
 4. [Kasutaja leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#kasutaja-leht)
 5. [Admini leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#admini-leht)
+6. [Link]()
 
 ## Projekti kohta
 Sait on mõeldud arvutikomponentide tellimiseks.
@@ -100,3 +99,6 @@ Oma lehel saab administraator:
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/26ef81ae-cdb8-4b12-9179-76fff7613302)
+
+## Link
+[Veebileht](https://antonbuivol22.thkit.ee/phplehti/content/andmebaas/TheFinalProj/ControllPage.php)
