@@ -14,7 +14,8 @@
 
 ## Projekti kohta
 Sait on mõeldud arvutikomponentide tellimiseks.
-![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/d9cc6f83-997c-42f9-a29b-bff259a4a857)
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/e88eca7c-da10-41d7-ad0f-f971e776931a)
+
 
 
 ## Registreerimine
