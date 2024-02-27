@@ -75,6 +75,6 @@ Oma lehel saab administraator:
 * Vaata kõiki tellimusi
 * Märkige vajalike komponentide olemasolu
 * Pange tähele, et tellimus on pakitud
-* 
+
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
