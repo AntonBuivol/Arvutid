@@ -70,6 +70,9 @@ Arvutikomponente saad tellida kasutajalehel. Kõigepealt tuleb kirjutada vajalik
 
 ## Admini leht
 
-Oma lehel näeb admin kõiki tellimusi ja märgib, kas vajalikud komponendid on saadaval, misjärel märgib, et tellimus on pakitud.
+Oma lehel saab administraator:
+* Vaata kõiki tellimusi
+* Märkige vajalike komponentide olemasolu
+* Pange tähele, et tellimus on pakitud
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
