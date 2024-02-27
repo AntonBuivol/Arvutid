@@ -5,7 +5,6 @@
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/896ca8ed-ac3b-43b3-9e89-7618811da355)
 
 ## Sisukord
-
 1. [Projekti kohta](https://github.com/AntonBuivol/Arvutid?tab=readme-ov-file#projekti-kohta)
 2. [Registreerimine](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#registreerimine)
 3. [Logi sisse](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#logi-sisse)
@@ -17,7 +16,9 @@ Sait on mõeldud arvutikomponentide tellimiseks.
 
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
-```
+<details><summary>Kood</summary>
+
+   ```
 global $yhendus;
 if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
@@ -41,6 +42,9 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 }
 ```
+
+</details>
+
 ## Logi sisse
 Sisselogimiseks kirjutasime PHP koodi, mis kontrollib, kas sisselogimine ja parool on õigesti sisestatud ning kui tegu on adminiga, siis avaneb adminni leht.
 ```
