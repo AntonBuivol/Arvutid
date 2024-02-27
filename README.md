@@ -47,6 +47,8 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 ## Logi sisse
 Sisselogimiseks kirjutasime PHP koodi, mis kontrollib, kas sisselogimine ja parool on õigesti sisestatud ning kui tegu on adminiga, siis avaneb adminni leht.
+<details><summary>Kood</summary>
+
 ```
 if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
@@ -80,6 +82,8 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
     }
 }
 ```
+
+</details>
 
 ## Kasutaja leht
 Arvutikomponente saad tellida kasutajalehel. Kõigepealt tuleb kirjutada vajalike komponentide kirjeldused ja seejärel need salvestada. Pärast seda näeb administraator, mida soovite.
