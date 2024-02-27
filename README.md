@@ -8,7 +8,7 @@
 3. [Logi sisse](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#logi-sisse)
 4. [Kasutaja leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#kasutaja-leht)
 5. [Admini leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#admini-leht)
-6. [Link]()
+6. [Link](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#link)
 
 ## Projekti kohta
 Sait on mõeldud arvutikomponentide tellimiseks.
