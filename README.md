@@ -1,5 +1,6 @@
 # Arvutikomponentide tellimine
-![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/682be319-c159-4521-a302-a0c9606aaa78)
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/896ca8ed-ac3b-43b3-9e89-7618811da355)
+
 
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
