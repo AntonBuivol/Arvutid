@@ -1,4 +1,7 @@
 # Arvutikomponentide tellimine
+
+[Veebileht](https://antonbuivol22.thkit.ee/phplehti/content/andmebaas/TheFinalProj/ControllPage.php)
+
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/896ca8ed-ac3b-43b3-9e89-7618811da355)
 
 
