@@ -14,9 +14,6 @@
 
 ## Projekti kohta
 Sait on mõeldud arvutikomponentide tellimiseks.
-![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/e88eca7c-da10-41d7-ad0f-f971e776931a)
-
-
 
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
