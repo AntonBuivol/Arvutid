@@ -5,10 +5,16 @@
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/896ca8ed-ac3b-43b3-9e89-7618811da355)
 
 ## Sisukord
-1. [Registreerimine](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#registreerimine)
-2. [Logi sisse](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#logi-sisse)
-3. [Kasutaja leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#kasutaja-leht)
-4. [Admini leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#admini-leht)
+
+1. [Projekti kohta]()
+2. [Registreerimine](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#registreerimine)
+3. [Logi sisse](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#logi-sisse)
+4. [Kasutaja leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#kasutaja-leht)
+5. [Admini leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#admini-leht)
+
+## Projekti kohta
+Sait on mõeldud arvutikomponentide tellimiseks.
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/d9cc6f83-997c-42f9-a29b-bff259a4a857)
 
 
 ## Registreerimine
