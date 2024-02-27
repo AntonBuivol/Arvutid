@@ -1,4 +1,4 @@
-# Arvutite tellimine
+# Arvutikomponentide tellimine
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
 ```
@@ -62,15 +62,13 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 ```
 
 ## Kasutaja leht
-Arvutit saad tellida kasutaja lehel. Esmalt tuleb kirjutada vajaliku arvuti kirjeldus ja seejärel need salvestada. Pärast seda näeb administraator teie nõudeid.
+Arvutikomponente saad tellida kasutajalehel. Kõigepealt tuleb kirjutada vajalike komponentide kirjeldused ja seejärel need salvestada. Pärast seda näeb administraator, mida soovite.
 
-```
-
-```
 
 ## Admini leht
 
-
+Oma lehel näeb admin kõiki tellimusi ja märgib, kas vajalikud komponendid on saadaval, misjärel märgib, et tellimus on pakitud.
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
 
 1. First list item
