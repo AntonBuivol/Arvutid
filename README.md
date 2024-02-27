@@ -91,12 +91,14 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 </details>
 
-## Kasutaja leht
+## Lehed
+
+### Kasutaja leht
 Arvutikomponente saad tellida kasutajalehel. Kõigepealt tuleb kirjutada vajalike komponentide kirjeldused ja seejärel need salvestada. Pärast seda näeb administraator, mida soovite.
 
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/2b16fabd-d9d4-4482-9ab0-f1dab03f52c5)
 
-## Admini leht
+### Admini leht
 
 Oma lehel saab administraator:
 * Vaata kõiki tellimusi
