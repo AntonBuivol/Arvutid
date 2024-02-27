@@ -8,4 +8,4 @@ Text that is not a quote
 
 > Text that is a quote
 
-The background color is #0969DA for light mode and #ffffff for dark mode.
+The background color is '#ffffff' for light mode and '#ffffff' for dark mode.
