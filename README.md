@@ -1,4 +1,4 @@
-# Arvutid
+# Arvutite tellimine
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
 ```
@@ -25,7 +25,7 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 }
 ```
-## Login
+## Logi sisse
 Sisselogimiseks kirjutasime PHP koodi, mis kontrollib, kas sisselogimine ja parool on õigesti sisestatud ning kui tegu on adminiga, siis avaneb adminni leht.
 ```
 if (!empty($_POST['login']) && !empty($_POST['pass'])) {
@@ -60,3 +60,17 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
     }
 }
 ```
+
+## Kasutaja leht
+Arvutit saad tellida kasutaja lehel. Esmalt tuleb kirjutada vajaliku arvuti kirjeldus ja seejärel need salvestada. Pärast seda näeb administraator teie nõudeid.
+
+```
+
+```
+
+## Admini leht
+
+
+1. First list item
+   - First nested list item
+     - Second nested list item
