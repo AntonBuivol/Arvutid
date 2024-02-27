@@ -1,7 +1,5 @@
 # Arvutikomponentide tellimine
 
-![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/896ca8ed-ac3b-43b3-9e89-7618811da355)
-
 ## Sisukord
 1. [Projekti kohta](https://github.com/AntonBuivol/Arvutid?tab=readme-ov-file#projekti-kohta)
 2. [Registreerimine](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#registreerimine)
@@ -12,6 +10,9 @@
 
 ## Projekti kohta
 Sait on mõeldud arvutikomponentide tellimiseks.
+
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/cbe9cc8d-8548-4d56-a360-fe580a70d4f1)
+
 
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
