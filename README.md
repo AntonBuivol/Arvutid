@@ -5,9 +5,9 @@
 2. [Registreerimine](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#registreerimine)
 3. [Logi sisse](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#logi-sisse)
 4. [Lehed](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#lehed)
-4. 1. [Kasutaja leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#kasutaja-leht)
-   2. [Admini leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#admini-leht)
-7. [Link](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#link)
+   - [Kasutaja leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#kasutaja-leht)
+   - [Admini leht](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#admini-leht)
+5. [Link](https://github.com/AntonBuivol/Arvutid/blob/main/README.md#link)
 
 ## Projekti kohta
 Sait on mõeldud arvutikomponentide tellimiseks.
