@@ -15,6 +15,9 @@ Sait on mõeldud arvutikomponentide tellimiseks.
 
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
+
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/3bd99571-87ee-4e2f-bb63-b8db4db46bdd)
+
 <details><summary>Kood</summary>
 
    ```
@@ -46,6 +49,9 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 ## Logi sisse
 Sisselogimiseks kirjutasime PHP koodi, mis kontrollib, kas sisselogimine ja parool on õigesti sisestatud ning kui tegu on adminiga, siis avaneb adminni leht.
+
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/21d1298b-18f4-4f55-b9ed-4c047de8140a)
+
 <details><summary>Kood</summary>
 
 ```
