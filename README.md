@@ -66,6 +66,7 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 ## Kasutaja leht
 Arvutikomponente saad tellida kasutajalehel. Kõigepealt tuleb kirjutada vajalike komponentide kirjeldused ja seejärel need salvestada. Pärast seda näeb administraator, mida soovite.
+
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/2b16fabd-d9d4-4482-9ab0-f1dab03f52c5)
 
 ## Admini leht
@@ -74,5 +75,6 @@ Oma lehel saab administraator:
 * Vaata kõiki tellimusi
 * Märkige vajalike komponentide olemasolu
 * Pange tähele, et tellimus on pakitud
+* 
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
