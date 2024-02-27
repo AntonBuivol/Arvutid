@@ -1,4 +1,6 @@
 # Arvutikomponentide tellimine
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/682be319-c159-4521-a302-a0c9606aaa78)
+
 ## Registreerimine
 Registreerimiseks kirjutasime PHP koodi, mis lisab kasutaja andmebaasi. Vaikimisi on kõigile kasutajatele määratud tavakasutaja roll.
 ```
@@ -63,14 +65,10 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 
 ## Kasutaja leht
 Arvutikomponente saad tellida kasutajalehel. Kõigepealt tuleb kirjutada vajalike komponentide kirjeldused ja seejärel need salvestada. Pärast seda näeb administraator, mida soovite.
-
+![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/2b16fabd-d9d4-4482-9ab0-f1dab03f52c5)
 
 ## Admini leht
 
 Oma lehel näeb admin kõiki tellimusi ja märgib, kas vajalikud komponendid on saadaval, misjärel märgib, et tellimus on pakitud.
 ![pilt](https://github.com/AntonBuivol/Arvutid/assets/120181261/a48c635c-1096-4e02-ac00-b059dfab9486)
 
-
-1. First list item
-   - First nested list item
-     - Second nested list item
