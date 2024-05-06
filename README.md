@@ -112,3 +112,11 @@ Oma lehel saab administraator:
 
 ## Link
 [Veebileht](https://antonbuivol22.thkit.ee/phplehti/content/andmebaas/TheFinalProj/ControllPage.php)
+
+##Ülesanned
+1) Vahetage Sissepääs ja Registrerimine nupud.
+2) Liiguta kasutaja lehel tekst "Kirjutage, mida soovite saada ja me saadame selle teile" keskele.
+3) Liigutage lehtede pealkirjad "Kasutaja Leht" ja "Administreerimisleht" keskele.
+4) Muutke administraatorilehel nupu "Tühista" värv punaseks.
+5) Muuda sisselogimis- ja registreerimislehel nupu "Tagasi" värv punaseks.
+6) Muutke sisukorra värv halliks.
