@@ -10,13 +10,13 @@
 Tere tulemast! Taotluse jätmiseks minge veebisaidile.
 </h1>
  <div class="Login">
-        <a href="login.php">
-            <button>Sissepääs</button>
+        <a href="register.php">
+            <button>registreerimine</button>
         </a>
     </div>
 <div class="Reg">
-    <a href="register.php">
-        <button>Registreerimine</button>
+    <a href="login.php">
+        <button>Sissepääs</button>
     </a>
 </div>
 </body>
