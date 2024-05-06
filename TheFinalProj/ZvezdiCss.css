@@ -41,6 +41,9 @@ td{
 td[colspan=”2″] {
     text-align: center;
 }
+h2{
+    position: center;
+}
 h1{
     color: white;
     background-color: black;
